@@ -121,7 +121,7 @@ cat <<EOT >> /etc/sysctl.conf
 net.ipv4.icmp_echo_ignore_all=1
 EOT
 
-# ?
+# Apply
 sysctl -p
 # Enable openvpn daemon
 systemctl enable openvpn
