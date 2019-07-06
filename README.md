@@ -4,7 +4,7 @@ Standalone openvpn+telegramproxy+sslh VPS installer
 This script will let you setup your own VPS in no more than a minute with OpenVPN, Telegram MTProxy and sslh to leak through walls like neutrino.
 
 ### Installation
-Run the script and follow the assistant:
+Run the script:
 
 `wget https://git.io/neutrinovps -O setup.sh && bash setup.sh`
 
