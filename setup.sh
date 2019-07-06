@@ -8,6 +8,14 @@ sudo ufw default allow outgoing
 sudo ufw allow https
 
 
+### Disable ipv6
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+cat <<EOT >> /etc/sysctl.conf
+net.ipv6.conf.all.disable_ipv6=1
+net.ipv6.conf.default.disable_ipv6=1
+EOT
+
 ### mtproxy
 # Create secret
 SECRET=$(openssl rand -hex 16)
