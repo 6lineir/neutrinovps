@@ -9,3 +9,7 @@ Run the script:
 `wget https://git.io/neutrinovps -O setup.sh && bash setup.sh`
 
 Once it ends, you will get .ovpn config file and Telegram proxy link.
+
+### Credits
+OpenVPN - https://github.com/Nyr/openvpn-install/
+MTProxy - https://github.com/alexbers/mtprotoproxy
